@@ -2,6 +2,9 @@ version: '2'
 services:
  web:
    build: .
+   image: xenial-php
    container_name: xenial-php
    environment:
      LOG_LEVEL: debug
+   ports:
+     - 8080:80
