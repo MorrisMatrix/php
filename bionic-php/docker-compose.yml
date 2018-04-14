@@ -3,5 +3,3 @@ services:
  web:
    build: .
    container_name: php
-   environment:
-     LOG_LEVEL: debug
